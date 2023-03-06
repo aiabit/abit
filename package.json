@@ -1,0 +1,19 @@
+{
+  "name": "abit",
+  "version": "0.0.0",
+  "description": "A bit tool.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aiabit/abit.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aiabit/abit/issues"
+  },
+  "homepage": "https://github.com/aiabit/abit#readme"
+}
