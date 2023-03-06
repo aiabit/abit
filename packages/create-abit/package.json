@@ -1,0 +1,60 @@
+{
+  "name": "create-abit",
+  "version": "0.2.0",
+  "description": "create-abit",
+  "keywords": [
+    "abitjs"
+  ],
+  "homepage": "https://aiabit.com",
+  "bugs": {
+    "url": "https://github.com/aiabit/abit/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aiabit/abit",
+    "directory": "packages/create-abit"
+  },
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/index.mjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "cda": "index.mjs",
+    "create-abit": "index.mjs"
+  },
+  "files": [
+    "dist",
+    "template-*",
+    "templates",
+    "index.js"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "dependencies": {
+    "execa": "^7.0.0",
+    "fast-glob": "^3.2.12",
+    "fs-extra": "^11.1.0",
+    "gitignore-parser": "^0.0.2",
+    "mustache": "^4.2.0",
+    "node-fetch": "^3.3.0",
+    "picocolors": "^1.0.0",
+    "prettier": "^2.8.4",
+    "prompts": "^2.4.2"
+  },
+  "devDependencies": {
+    "@types/mustache": "^4.2.2",
+    "@types/prompts": "^2.4.2"
+  },
+  "engines": {
+    "node": "^14.18.0 || >=16.12.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "authors": [
+    "Zack <lorenx@163.com> (https://github.com/loyep)"
+  ]
+}

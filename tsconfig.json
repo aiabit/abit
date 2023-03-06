@@ -1,0 +1,11 @@
+{
+  "files": [],
+  "references": [
+    { "path": "packages/create-abit" },
+    { "path": "packages/abit" },
+    { "path": "packages/cli" },
+    { "path": "packages/react" },
+    { "path": "packages/vue" },
+    { "path": "packages/node" }
+  ]
+}

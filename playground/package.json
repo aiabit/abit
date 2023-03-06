@@ -1,0 +1,14 @@
+{
+  "name": "@abitjs/playground",
+  "private": true,
+  "scripts": {
+    "build": "abit build",
+    "dev": "abit dev",
+    "start": "abit start"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "abit": "workspace:*",
+    "react": "^18.2.0"
+  }
+}
