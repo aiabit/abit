@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 
 const Home: FC = () => {
-  return <div>Hello Abitjsjs</div>;
+  return <div>Hello Abitjs</div>;
 };
 
 export default Home;

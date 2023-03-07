@@ -20,7 +20,6 @@
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "bin": {
-    "cda": "index.mjs",
     "create-abit": "index.mjs"
   },
   "files": [
